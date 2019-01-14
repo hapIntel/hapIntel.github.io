@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "java script"
-date: 2014-07-22 16:25:06 -0700
+date: 2019-01-14 
 comments: true
 categories: web javascript
 tags: #javascript
