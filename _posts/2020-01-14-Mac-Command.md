@@ -21,6 +21,7 @@ tags: #mac #terminal #command-line
 #### 文件操作
 
 | 命令名 | 功能描述 | 使用举例 |
+| ------ | ------ |------ |
 | cat | 显示或连接文件 | cat filename |
 | pg | 分页格式化显示文件内容 | pg filename |
 | more | 分屏显示文件内容 | more filename |
@@ -36,6 +37,7 @@ tags: #mac #terminal #command-line
 #### 选择操作
 
 | 命令名 | 功能描述 | 使用举例 |
+| ------ | ------ |------ |
 | head | 显示文件的最初几行 | head -20 filename |
 | tail | 显示文件的最后几行 | tail -15 filename |
 | cut | 显示文件每行中的某些域 | cut -f1,7 -d: /etc/passwd |
@@ -54,6 +56,7 @@ tags: #mac #terminal #command-line
 #### 安全操作
 
 | 命令名 | 功能描述 | 使用举例 |
+| ------ | ------ |------ |
 | passwd | 修改用户密码 | passwd |
 | chmod | 改变文件或目录的权限 | chmod ug+x filename |
 | umask | 定义创建文件的权限掩码 | umask 027 |
@@ -64,6 +67,7 @@ tags: #mac #terminal #command-line
 #### 编程操作
 
 | 命令名 | 功能描述 | 使用举例 |
+| ------ | ------ |------ |
 | make | 维护可执行程序的最新版本 | make |
 | touch | 更新文件的访问和修改时间 | touch -m 05202400 filename |
 | dbx | 命令行界面调试工具 | dbx a.out |
@@ -72,6 +76,7 @@ tags: #mac #terminal #command-line
 #### 进程操作
 
 | 命令名 | 功能描述 | 使用举例 |
+| ------ | ------ |------ |
 | ps | 显示进程当前状态 | ps u |
 |kill|终止进程|kill -9 30142|
 |nice|改变待执行命令的优先级|nice cc -c *.c|
@@ -80,6 +85,7 @@ tags: #mac #terminal #command-line
 #### 时间操作
 
 | 命令名 | 功能描述 | 使用举例 |
+| ------ | ------ |------ |
 | date | 显示系统的当前日期和时间 | date |
 | cal | 显示日历 | cal 8 1996 |
 | time | 统计程序的执行时间 | time a.out |
@@ -87,6 +93,7 @@ tags: #mac #terminal #command-line
 #### 网络与通信操作
 
 | 命令名 | 功能描述 | 使用举例 |
+| ------ | ------ |------ |
 | telnet | 远程登录 | telnet hpc.sp.net.edu.cn |
 | rlogin | 远程登录 | rlogin hostname -l username |
 | rsh | 在远程主机执行指定命令 | rsh f01n03 date |
@@ -100,6 +107,7 @@ tags: #mac #terminal #command-line
 #### Korn Shell 命令
 
 | 命令名 | 功能描述 | 使用举例 |
+| ------ | ------ |------ |
 | history | 列出最近执行过的 几条命令及编号 | history |
 | r | 重复执行最近执行过的 某条命令 | r -2 |
 | alias | 给某个命令定义别名 | alias del=rm -i |
@@ -108,6 +116,7 @@ tags: #mac #terminal #command-line
 #### 其它命令
 
 |命令名 | 功能描述 | 使用举例 |
+| ------ | ------ |------ |
 | uname | 显示操作系统的有关信息 | uname -a |
 | clear | 清除屏幕或窗口内容 | clear |
 | env | 显示当前所有设置过的环境变量 | env |
