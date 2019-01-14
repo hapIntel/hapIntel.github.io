@@ -12,7 +12,7 @@ JavaScript 是Web的编程语言。[学习网址](http://www.runoob.com/js/js-tu
 1. HTML 定义了网页的内容
 2. CSS 描述了网页的布局
 3. JavaScript 网页的行为
-
+``` html
     <!DOCTYPE html>
     <html>
     <head>
@@ -33,3 +33,4 @@ JavaScript 是Web的编程语言。[学习网址](http://www.runoob.com/js/js-tu
 
     </body>
     </html>
+```
